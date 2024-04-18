@@ -5,6 +5,11 @@ export const Container = styled.div`
     cursor: pointer;
     display: flex;
     margin-bottom: 15px;
+
+    @media (max-width: 480px){
+        flex-direction: column;
+    }
+
 `;
 
 export const ImageBanner = styled.img`
@@ -25,6 +30,10 @@ export const TitleContainer = styled.div`
     width: 100%;
     display: flex;
     margin-left: 20px;
+
+    @media (max-width: 480px){
+        margin-left: 0;
+    }
 `;
 
 export const Title = styled.span`
@@ -47,6 +56,11 @@ export const TextContainer = styled.div`
     flex-direction: column;
     margin-left: 10px;
     gap: 15px;
+
+    @media (max-width: 480px){
+        width: 375px;
+        margin: 0;
+    }
 `;
 
 export const TextCard = styled.span`
