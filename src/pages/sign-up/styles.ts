@@ -6,7 +6,6 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1600px;
 `;
 
 export const LogoContainer = styled.div`
@@ -36,6 +35,10 @@ export const LoginContainer = styled.div`
         font-weight: 400;
         justify-content: center;
         margin: 10px 0 0 0;
+    }
+    @media(max-width: 480px){
+        width: 300px;
+        height: 400px;
     }
 `;
 
