@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    width: 90%;
+    width: 100%;
     box-sizing: border-box;
     background-color: white;
-    max-width: 1960px;
+    max-width: 1600px;
     position: sticky;
     top: 55px;
 

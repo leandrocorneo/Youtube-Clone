@@ -23,8 +23,9 @@ export const Container = styled.div<ContainerProps>`
 
 export const MainContainer = styled.div<ContainerProps>`
   width: 100%;
-  max-width: 1600px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: ${({openMenu}) => openMenu? '0 0 0 250px' : '0 0 0 100px'};
   box-sizing: border-box;
