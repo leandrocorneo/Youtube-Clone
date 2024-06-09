@@ -11,6 +11,10 @@ export const Container = styled.div<ContainerProps>`
   grid-template-columns: ${({openMenu}) => openMenu? 'repeat(3, 1fr)' : 'repeat(4, 1fr)' };
   gap: 20px;
 
+  @media(max-width: 1200px){
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   @media (max-width: 768px){
     grid-template-columns: repeat(2, 1fr);
   }
